@@ -1,0 +1,38 @@
+{
+  "name": "esis-rewrite",
+  "version": "1.0.0",
+  "description": "the rebuilt student information system ",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w client/scss/ -o client/display/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/carefulrogue1/esis-rewrite.git"
+  },
+  "maintainers": [
+    {
+      "name": "Chris Munoko",
+      "url": "https://chrismunoko.com"
+    },
+    {
+      "name": "Owen Friesen"
+    },
+    {
+      "name": "Desi Lucht"
+    },
+    {
+      "name": "Jack Romanik"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/carefulrogue1/esis-rewrite/issues"
+  },
+  "homepage": "https://gitlab.com/carefulrogue1/esis-rewrite#README",
+  "devDependencies": {
+    "contributors": "^0.5.1",
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0"
+  }
+}
