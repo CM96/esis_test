@@ -33,6 +33,11 @@
   "devDependencies": {
     "contributors": "^0.5.1",
     "express": "^4.17.1",
+    "mongoose": "^5.7.7",
     "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1"
   }
 }
